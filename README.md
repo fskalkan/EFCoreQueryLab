@@ -1,21 +1,21 @@
 # EFCoreQueryLab
 
-EFCoreQueryLab, Entity Framework Core ve SQL sorgu mantığını pratik etmek için hazırlanmış bir projesidir.
+EFCoreQueryLab, Entity Framework Core ve SQL sorgu mantÄ±ÄŸÄ±nÄ± pratik etmek iÃ§in hazÄ±rlanmÄ±ÅŸ bir projesidir.
 
-Bu projede EF Core’un sadece nasıl kullanıldığını değil, arka planda SQL tarafında nasıl çalıştığını anlamak amaçlanmıştır.
+Bu projede EF Coreâ€™un sadece nasÄ±l kullanÄ±ldÄ±ÄŸÄ±nÄ± deÄŸil, arka planda SQL tarafÄ±nda nasÄ±l Ã§alÄ±ÅŸtÄ±ÄŸÄ±nÄ± anlamak amaÃ§lanmÄ±ÅŸtÄ±r.
 
-## Çalışılan Konular
+## Ã‡alÄ±ÅŸÄ±lan Konular
 
 * Tracking ve AsNoTracking
-* Projection / Select kullanımı
+* Projection / Select kullanÄ±mÄ±
 * Include ve ThenInclude
-* EF Core sorgularının SQL karşılığını görme
+* EF Core sorgularÄ±nÄ±n SQL karÅŸÄ±lÄ±ÄŸÄ±nÄ± gÃ¶rme
 * Filtering, sorting ve pagination
 * GROUP BY ve HAVING
-* INNER JOIN ve LEFT JOIN mantığı
-* Object cycle problemini projection ile önleme
+* INNER JOIN ve LEFT JOIN mantÄ±ÄŸÄ±
+* Object cycle problemini projection ile Ã¶nleme
 
-## Örnek Endpointler
+## Ã–rnek Endpointler
 
 ```text
 GET /api/queryexamples/products/tracking
@@ -28,6 +28,6 @@ GET /api/queryexamples/orders/detail-projection
 GET /api/queryexamples/orders/left-join-payment-sql
 ```
 
-## Amaç
+## AmaÃ§
 
-Bu proje, .NET backend geliştirme sürecinde EF Core sorgularını, SQL karşılıklarını ve performanslı veri çekme mantığını daha iyi anlamak için geliştirilmiştir.
+Bu proje, .NET backend geliÅŸtirme sÃ¼recinde EF Core sorgularÄ±nÄ±, SQL karÅŸÄ±lÄ±klarÄ±nÄ± ve performanslÄ± veri Ã§ekme mantÄ±ÄŸÄ±nÄ± daha iyi anlamak iÃ§in geliÅŸtirilmiÅŸtir.
