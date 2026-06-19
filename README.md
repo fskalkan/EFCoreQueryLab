@@ -1,6 +1,6 @@
 # EFCoreQueryLab
 
-EFCoreQueryLab, Entity Framework Core ve SQL sorgu mantığını pratik etmek için hazırlanmış bir projesidir.
+EFCoreQueryLab, Entity Framework Core ve SQL sorgu mantığını pratik etmek için hazırlanmış bir projedir.
 
 Bu projede EF Core’un sadece nasıl kullanıldığını değil, arka planda SQL tarafında nasıl çalıştığını anlamak amaçlanmıştır.
 
